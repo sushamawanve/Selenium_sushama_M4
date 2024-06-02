@@ -49,7 +49,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>add address.xml</suiteXmlFile>
+            <suiteXmlFile>add adress.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

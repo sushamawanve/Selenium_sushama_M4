@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-30T08:09:04 IST" name="Default suite" finished-at="2024-05-30T08:09:51 IST" duration-ms="47768">
+  <suite started-at="2024-06-01T14:36:33 IST" name="Default suite" finished-at="2024-06-01T14:37:49 IST" duration-ms="75282">
     <groups>
     </groups>
-    <test started-at="2024-05-30T08:09:04 IST" name="Default test" finished-at="2024-05-30T08:09:51 IST" duration-ms="47768">
+    <test started-at="2024-06-01T14:36:33 IST" name="Default test" finished-at="2024-06-01T14:37:49 IST" duration-ms="75282">
       <class name="com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:04 IST" name="beforesuite" finished-at="2024-05-30T08:09:04 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:36:33 IST" name="beforesuite" finished-at="2024-06-01T14:36:33 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:04 IST" name="beforetest" finished-at="2024-05-30T08:09:04 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:36:33 IST" name="beforetest" finished-at="2024-06-01T14:36:34 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:04 IST" name="beforeclass" finished-at="2024-05-30T08:09:36 IST" duration-ms="32160" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:36:34 IST" name="beforeclass" finished-at="2024-06-01T14:36:44 IST" duration-ms="10228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:37 IST" name="beforemethod" finished-at="2024-05-30T08:09:48 IST" duration-ms="11362" status="FAIL">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:36:44 IST" name="beforemethod" finished-at="2024-06-01T14:37:48 IST" duration-ms="64203" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <button id="loginBtn" name="loginBtn" class="navbar_...button__O9-64">Login</button> is not clickable at point (1171, 29). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root css-ltl3a3" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
-  (Session info: chrome=125.0.6422.78)
+  (Session info: chrome=125.0.6422.113)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1715519693635094950d62323ecef220, clickElement {id=f.8FFC326BFC480A33AB6128DDEBE2E8DC.d.4B733795E50A18804A56FD0CB0DC29D2.e.4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1715519693635094950d62323ecef220)] -> id: loginBtn]
-Session ID: 1715519693635094950d62323ecef220]]>
+Command: [051dd86f82d259bd0c9ed5433c3465c1, clickElement {id=f.5471385BD6A0685B0055A9DE14175A5A.d.16C621176DC05303FB441243F371E80D.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49276/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (051dd86f82d259bd0c9ed5433c3465c1)] -> id: loginBtn]
+Session ID: 051dd86f82d259bd0c9ed5433c3465c1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="loginBtn" name="loginBtn" class="navbar_...button__O9-64">Login</button> is not clickable at point (1171, 29). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root css-ltl3a3" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
-  (Session info: chrome=125.0.6422.78)
+  (Session info: chrome=125.0.6422.113)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1715519693635094950d62323ecef220, clickElement {id=f.8FFC326BFC480A33AB6128DDEBE2E8DC.d.4B733795E50A18804A56FD0CB0DC29D2.e.4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1715519693635094950d62323ecef220)] -> id: loginBtn]
-Session ID: 1715519693635094950d62323ecef220
+Command: [051dd86f82d259bd0c9ed5433c3465c1, clickElement {id=f.5471385BD6A0685B0055A9DE14175A5A.d.16C621176DC05303FB441243F371E80D.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49276/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (051dd86f82d259bd0c9ed5433c3465c1)] -> id: loginBtn]
+Session ID: 051dd86f82d259bd0c9ed5433c3465c1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -101,29 +101,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="addAddress()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:48 IST" name="addAddress" finished-at="2024-05-30T08:09:48 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addAddress()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:37:48 IST" name="addAddress" finished-at="2024-06-01T14:37:48 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <button id="loginBtn" name="loginBtn" class="navbar_...button__O9-64">Login</button> is not clickable at point (1171, 29). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root css-ltl3a3" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
-  (Session info: chrome=125.0.6422.78)
+  (Session info: chrome=125.0.6422.113)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1715519693635094950d62323ecef220, clickElement {id=f.8FFC326BFC480A33AB6128DDEBE2E8DC.d.4B733795E50A18804A56FD0CB0DC29D2.e.4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1715519693635094950d62323ecef220)] -> id: loginBtn]
-Session ID: 1715519693635094950d62323ecef220]]>
+Command: [051dd86f82d259bd0c9ed5433c3465c1, clickElement {id=f.5471385BD6A0685B0055A9DE14175A5A.d.16C621176DC05303FB441243F371E80D.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49276/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (051dd86f82d259bd0c9ed5433c3465c1)] -> id: loginBtn]
+Session ID: 051dd86f82d259bd0c9ed5433c3465c1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="loginBtn" name="loginBtn" class="navbar_...button__O9-64">Login</button> is not clickable at point (1171, 29). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root css-ltl3a3" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
-  (Session info: chrome=125.0.6422.78)
+  (Session info: chrome=125.0.6422.113)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1715519693635094950d62323ecef220, clickElement {id=f.8FFC326BFC480A33AB6128DDEBE2E8DC.d.4B733795E50A18804A56FD0CB0DC29D2.e.4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49465/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1715519693635094950d62323ecef220)] -> id: loginBtn]
-Session ID: 1715519693635094950d62323ecef220
+Command: [051dd86f82d259bd0c9ed5433c3465c1, clickElement {id=f.5471385BD6A0685B0055A9DE14175A5A.d.16C621176DC05303FB441243F371E80D.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49276/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (051dd86f82d259bd0c9ed5433c3465c1)] -> id: loginBtn]
+Session ID: 051dd86f82d259bd0c9ed5433c3465c1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -183,19 +183,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAddress -->
-        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:48 IST" name="aftermethod" finished-at="2024-05-30T08:09:48 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:37:48 IST" name="aftermethod" finished-at="2024-06-01T14:37:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:48 IST" name="afterclass" finished-at="2024-05-30T08:09:48 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:37:48 IST" name="afterclass" finished-at="2024-06-01T14:37:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:48 IST" name="aftertest" finished-at="2024-05-30T08:09:51 IST" duration-ms="3314" status="PASS">
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:37:48 IST" name="aftertest" finished-at="2024-06-01T14:37:49 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-05-30T08:09:52 IST" name="aftersuite" finished-at="2024-05-30T08:09:52 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test@43bc63a3]" started-at="2024-06-01T14:37:49 IST" name="aftersuite" finished-at="2024-06-01T14:37:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite -->

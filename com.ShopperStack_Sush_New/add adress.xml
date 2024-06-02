@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not"/>
-      <class name="com.ShopperStack_Test_Script.verify_user_is_able_to_delete_address_or_not"/>
+      <class name="com.ShopperStack_Test_Script.verify_user_is_able_to_add_address_or_not_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
